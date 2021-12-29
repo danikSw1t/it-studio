@@ -36,7 +36,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat Medium';
+  font-family: "Montserrat Medium";
 }
 
 .container {
@@ -48,30 +48,30 @@ h2 {
   font-size: 36px;
   line-height: 53px;
   color: #323232;
-  font-family: 'Montserrat Bold';
+  font-family: "Montserrat Bold";
   text-align: center;
 }
 
 .primary-btn {
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
-  background: #4985FF;
+  color: #ffffff;
+  background: #4985ff;
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   border: 0;
   padding: 14px 36px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .primary-btn:hover {
-  color: #4985FF;
-  background: #FFFFFF;
+  color: #4985ff;
+  background: #ffffff;
   cursor: pointer;
 }
 
 header {
-  border-bottom: 1px solid #A1A1A1;
+  border-bottom: 1px solid #a1a1a1;
   height: 100px;
   position: absolute;
   width: 100%;
@@ -87,7 +87,7 @@ header ul {
 
 header ul li {
   padding: 40px 20px 40px 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 header ul li:hover {
@@ -111,10 +111,10 @@ header ul li a {
 }
 
 h1 {
-  font-family: 'Montserrat Bold';
+  font-family: "Montserrat Bold";
   font-size: 48px;
   line-height: 64px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 20px 0 50px;
   text-align: center;
 }
@@ -130,7 +130,7 @@ h1 {
 .zero-content > div {
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .our-services {
@@ -143,7 +143,7 @@ h1 {
   text-align: center;
   color: #999999;
   margin: 50px 0 70px;
-  font-family: 'Montserrat Regular';
+  font-family: "Montserrat Regular";
 }
 
 .our-services-list {
@@ -158,7 +158,7 @@ h1 {
 }
 
 .service .outer-circle {
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 100%;
   width: 110px;
   height: 110px;
@@ -168,7 +168,7 @@ h1 {
 }
 
 .service .inner-circle {
-  border: 1px solid #4985FF;
+  border: 1px solid #4985ff;
   border-radius: 100%;
   width: 90px;
   height: 90px;
@@ -191,7 +191,7 @@ h1 {
   font-size: 14px;
   line-height: 22px;
   color: #999999;
-  font-family: 'Montserrat Regular';
+  font-family: "Montserrat Regular";
 }
 
 .our-services .button-block {
@@ -204,10 +204,9 @@ h1 {
 
 .standarts-info {
   display: flex;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
   padding: 100px 0px 90px;
 }
-
 
 .standarts-descr {
   padding: 0px 121px 0px 0px;
@@ -231,20 +230,24 @@ h1 {
   font-size: 16px;
   line-height: 20px;
   text-decoration-line: underline;
-  color: #4985FF;
+  color: #4985ff;
 }
 
 .portfolio {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-around;
   padding: 70px 0px;
+}
+
+.portfolio-info {
+  font-family: Montserrat Regular;
 }
 
 .porfolio-title {
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
+  padding-bottom: 17px;
 }
 
 .porfolio-number {
@@ -261,5 +264,6 @@ h1 {
 }
 
 .porfolio-picture {
-  margin-top: 9px;
+  display: flex;
+  align-items: center;
 }
