@@ -212,11 +212,12 @@ h1 {
   padding: 0px 121px 0px 0px;
 }
 
-.standarts-descr h3 {
+.standarts-descr h2 {
   margin: 52px 0 40px;
   font-size: 36px;
   line-height: 53px;
   color: #323232;
+  text-align: left;
 }
 
 .standarts-descr p {
@@ -266,4 +267,66 @@ h1 {
 .porfolio-picture {
   display: flex;
   align-items: center;
+}
+
+.our-works {
+  padding: 100px 0 85px;
+  background: linear-gradient(#504dc2 50%, #fff 50%);
+}
+
+.our-works-title {
+  display: flex;
+}
+
+.our-works h2 {
+  text-align: left;
+  flex: 1;
+  margin: 0;
+  color: #ffffff;
+}
+
+.our-works-title-button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.our-works-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0 85px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.our-works-item {
+  width: 31%;
+}
+.our-works-item img {
+  width: 100%;
+}
+
+.our-works-item h3 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 30px 0;
+}
+
+.our-works-item h3 span {
+  color: #4985ff;
+}
+
+.our-works-item p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  font-family: Montserrat Regular;
+  margin-bottom: 30px;
+}
+
+.our-works-item a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #4985ff;
+  font-family: Montserrat Regular;
 }
