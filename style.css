@@ -513,18 +513,164 @@ footer .info li:last-child {
   margin-bottom: 0;
 }
 
-
-
 @media (max-width: 900px) {
+  header {
+      border-bottom: none;
+      height: 50px;
+  }
+  header ul {
+      display: none;
+  }
+  header img {
+      display: block;
+      width: 10vh;
+  }
+  header .container {
+      display: flex;
+      justify-content: flex-end;
+  }
   h2 {
-    font-size: 26px;
-    line-height: 28px;
+      font-size: 26px;
+      line-height: 28px;
   }
   p {
-    font-size: 12px !important;
-    line-height: 15px !important;
+      font-size: 12px !important;
+      line-height: 15px !important;
+  }
+  .container {
+      width: 90%;
+  }
+  .our-services {
+      padding: 25px 0 40px;
   }
   .our-services-list {
-    flex-direction: column;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  .zero {
+      height: 60vh;
+  }
+  h1 {
+      font-size: 30px;
+      line-height: 45px;
+  }
+  .standarts-photo img {
+      height: 25vh;
+  }
+  .standarts-info {
+      height: 300px;
+  }
+  .about-work .video {
+      width: 85vh;
+  }
+  .about-work .video .play img {
+      height: 5vh;
+  }
+  .about-work .video .play {
+      font-size: 12px;
+      line-height: 18px;
+      padding: 10px 20px;
+  }
+  .service .outer-circle {
+      width: 90px;
+      height: 85px;
+  }
+  .service .inner-circle {
+      width: 70px;
+      height: 65px;
+  }
+  .our-works {
+      padding: 28px 0 20px;
+  }
+  .our-works-content {
+      padding: 55px 0 25px;
+  }
+  .our-projects {
+      height: 160px;
+  }
+  .spam {
+      padding-top: 100px;
+  }
+  .spam .container {
+      padding: 40px;
+  }
+  footer {
+      padding-top: 30px;
+  }
+  footer .container {
+      padding-bottom: 0px;
+  }
+  footer .rights {
+      padding: 10px 0;
   }
 }
+
+@media (max-width: 600px) {
+  header {
+      height: 20px;
+  }
+  header img {
+      display: block;
+      width: 7vh;
+  }
+  .container {
+      width: 90%;
+  }
+  header .container {
+      display: flex;
+      justify-content: flex-end;
+  }
+  h2 {
+      font-size: 20px;
+      line-height: 22px;
+  }
+  p {
+      font-size: 10px !important;
+      line-height: 13px !important;
+  }
+  .our-services-list {
+      margin-bottom: 35px;
+      flex-wrap: wrap;
+  }
+  .service .service-info {
+      width: 50vh;
+  }
+  .standarts-photo img {
+      height: 17vh;
+      margin-top: 52px;
+  }
+  .porfolio-number{
+    padding: 0;
+  }
+  .about-work .video {
+      width: 60vh;
+  }
+  .about-work .video .play img {
+      height: 4vh;
+  }
+  .about-work .video .play {
+      font-size: 10px;
+      line-height: 16px;
+      padding: 8px 16px;
+  }
+  footer .container {
+      display: block;
+      text-align: center;
+  }
+  footer .container .info {
+      margin: 0 auto;
+      width: auto;
+  }
+  footer .container .info h3 {
+      cursor: pointer;
+  }
+  footer .container .info ul {
+      display: none;
+  }
+  footer .container .info h3::before {
+      content: url(./img/button2.svg);
+  }
+ 
+}
+
+
